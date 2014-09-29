@@ -80,11 +80,10 @@
         cell.textLabel.text = @"another section";
     }
     else{
-        cell.textLabel.text = [NSString stringWithFormat:@"cell %i",indexPath.row];
+        cell.textLabel.text = [NSString stringWithFormat:@"cell %i", indexPath.row];
     }
     
     return cell;
-    //test
 }
 
 
